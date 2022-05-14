@@ -1,6 +1,8 @@
+
+.logo {
+    border: 1em;
+}
   .animateMe {
-    background-color: #222;
-    color: #fff;
     font-weight: 500;
     font-size: 5vw;
     display: flex;
@@ -14,8 +16,6 @@
   }
 
   .name {
-    background-color: #222;
-    color: #fff;
     font-weight: 800;
     font-size: 5vw;
     display: flex;
