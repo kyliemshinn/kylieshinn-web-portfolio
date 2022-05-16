@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image" href="./assets/images/KS.png">
+    <link rel="icon" type="image" href="./assets/images/KS.png" />
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@2.14.3/dist/full.css"
       rel="stylesheet"
@@ -16,61 +16,113 @@
 
   <body>
     <header>
-        <a href="index.html" class="normal-case text-xl"
-          ><img
-            src="./assets/images/kylielogo.png"
-            alt="Kylie Web Logo"
-            height="90px"
-            width="90px"
-            class="logo m-4"
-        /></a>
-        <div class="navbar bg-base-100 justify-center h-20">
-          <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal p-0">
-              <!-- The button to open modal -->
-              <label for="my-modal" class="btn modal-button">Bio</label>
-  
-              <!-- Put this part before </body> tag -->
-              <input type="checkbox" id="my-modal" class="modal-toggle" />
-              <div class="modal">
-                <div class="modal-box">
-                  <h3 class="font-bold text-lg">A Little About Me</h3>
-                  <p class="py-4">
-                    I am a full stack web developer leveraging a Speech Therapy background
-                    to build a more intuitive user experience on the web. I recently
-                    earned a certificate in full stack development from the
-                    University of Berkeley Extension School, with newly developed
-                    skills in HTML, JavaScript, CSS, React.js, MySQL, among many
-                    others. I've been known as an innovative problem solver passionate about
-                    developing apps, with proven success providing technical
-                    oversight to day-to-day operations. I leverage my current skill
-                    set to provide a better experience for both customers and
-                    partners by exhibiting excellent communication skills and an
-                    ability to take initiative to prioritize daily tasks. My aim
-                    is to best engage my audience for an impactful user experience
-                    with each project I begin. I have gained the ability
-                    to deploy static and dynamic websites, implement complex
-                    logical conditions to meet objectives, communicate the basics
-                    of serving a web page and how the browser renders code, and
-                    understanding in the basics of troubleshooting and enhancing
-                    legacy code. Proficient in project management, Microsoft
-                    office, data entry, and collaborative work.
-                    <br> 
-                    Skills: HTML | CSS
-                    | JavaScript | Bootstrap | jQuery | MySQL | MongoDB |Bootstrap
-                    | Responsive Design | React.js | Client-Server Model API |
-                    REST | JSON | AJAX | GraphQL | Node.js | Express.js | Heroku |
-                    Git | Shell Scripting | Unit Testing | Linting |
-                  </p>
-                  <div class="modal-action">
-                    <label for="my-modal" class="btn">Continue</label>
-                  </div>
+      <a href="index.html" class="normal-case text-xl"
+        ><img
+          src="../assets/images/kylielogo.png"
+          alt="Kylie Web Logo"
+          height="90px"
+          width="90px"
+          class="logo m-4"
+      /></a>
+      <div class="navbar bg-base-100 justify-center h-20">
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal p-0">
+            <!-- The button to open modal -->
+            <label for="my-modal" class="btn modal-button">Bio</label>
+
+            <!-- Put this part before </body> tag -->
+            <input type="checkbox" id="my-modal" class="modal-toggle" />
+            <div class="modal">
+              <div class="modal-box">
+                <h3 class="font-bold text-lg">A Little About Me</h3>
+                <p class="py-4">
+                  I am a full stack web developer leveraging a Speech Therapy
+                  background to build a more intuitive user experience on the
+                  web. I recently earned a certificate in full stack development
+                  from the University of Berkeley Extension School, with newly
+                  developed skills in HTML, JavaScript, CSS, React.js, MySQL,
+                  among many others. I've been known as an innovative problem
+                  solver passionate about developing apps, with proven success
+                  providing technical oversight to day-to-day operations. I
+                  leverage my current skill set to provide a better experience
+                  for both customers and partners by exhibiting excellent
+                  communication skills and an ability to take initiative to
+                  prioritize daily tasks. My aim is to best engage my audience
+                  for an impactful user experience with each project I begin. I
+                  have gained the ability to deploy static and dynamic websites,
+                  implement complex logical conditions to meet objectives,
+                  communicate the basics of serving a web page and how the
+                  browser renders code, and understanding in the basics of
+                  troubleshooting and enhancing legacy code. Proficient in
+                  project management, Microsoft office, data entry, and
+                  collaborative work.
+                  <br />
+                  Skills: HTML | CSS | JavaScript | Bootstrap | jQuery | MySQL |
+                  MongoDB |Bootstrap | Responsive Design | React.js |
+                  Client-Server Model API | REST | JSON | AJAX | GraphQL |
+                  Node.js | Express.js | Heroku | Git | Shell Scripting | Unit
+                  Testing | Linting |
+                </p>
+                <div class="modal-action">
+                  <label for="my-modal" class="btn">Continue</label>
                 </div>
               </div>
-              <li><a class="btn">Past Work Experience</a></li>
-              <li><a class="btn">Projects</a></li>
-              <li><a class="btn" href="#footer-contact">Contact</a></li>
-            </ul>
+            </div>
+            <li><a class="btn" href="./pages/workexperience.html">Past Work Experience</a></li>
+            <li><a class="btn" href="./pages/projects.html">Projects</a></li>
+            <li><a class="btn" href="#footer-contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="work-cards">
+
+        <div class="card w-96 bg-base-100 shadow-xl fit-content">    
+          <div class="card-body">
+            <h2 class="card-title">Army National Guard</h2>
+            <h3 style="font-style: italics;">Medical Officer</h3>
+            <h3>September 2018-Present</h3>
+            <p>•	Efficiently lead four soldiers in a medical squad consisting of two officers and two enlisted soldiers, responsible for maintaining and enforcing 100% accountability of the squad personnel and equipment.
+              <br>
+              •	Directly assist the Platoon Leader in developing and implementing monthly trainings, providing technical support in administrative tasks, and standing in as the Platoon Leader, watching over 40 soldiers in the absence of the Platoon Leader.
+              <br>
+              •	Supervises individual and squad-level training and mentors subordinates to ensure that they are properly prepared for medical operations.
+              </p>
+            <div class="card-actions justify-end">
+            </div>
           </div>
         </div>
-      </header>  
+
+        <div class="card w-96 bg-base-100 shadow-xl info-cards flex flex-row">
+          <div class="card-body">
+            <h2 class="card-title">Nektar Therapeutics</h2>
+            <h3>Reception Administrative Assistant</h3>
+            <h4>May 2021-March 2022</h4>
+            <p>•	Worked collaboratively with an immediate team of four to produce a safe and healthy workplace for all employees and ensure all personnel returning to work were completed safely.
+              <br>
+              •	Demonstrated exceptional communication and customer service skills while overseeing front office administrative duties. Earned the Nektar Star Award in October 2021 for making a significant impact on the work production of the research team and efficiency in supporting the team to transition back to on-site activities.
+              <br>
+              •	Completed First Aid, Emergency Response, and HAZWOPER trainings to establish safety throughout the building, leading the roll call section for all emergency evacuations.
+              </p>
+            <div class="card-actions justify-end">
+            </div>
+          </div>
+        </div>
+
+        <div class="card w-96 bg-base-100 shadow-xl">
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</html>

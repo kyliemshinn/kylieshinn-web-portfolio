@@ -2,8 +2,9 @@
 .logo {
     border: 1em;
 }
-  .animateMe {
-    background-image: url('./assets/images/star-background.jpg');
+
+.animateMe {
+    background-image: url("/assets/images/star-background.jpg");
     font-weight: 500;
     font-size: 5vw;
     display: flex;
