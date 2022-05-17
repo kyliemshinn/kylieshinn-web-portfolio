@@ -4,10 +4,11 @@
     border: 1em;
 }
 .infoCard {
-  background-image: url("./assets/images/star-background.jpg");
-
+  /* background-image: url("https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-14.jpg"); */
+  background-image: url("https://images8.alphacoders.com/482/482331.jpg");
 }
 .animateMe {
+    color: rgb(178, 178, 62);
     font-weight: 500;
     font-size: 5vw;
     display: flex;
@@ -33,9 +34,13 @@
     margin: 0;
   }
 
+  .modal-popup {
+    background-color: rgb(69, 76, 85);
+  }
+
   /* work experiences styling */
   .workCards {
-    background-image: url("./assets/images/starsbg.jpg");
+    background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg");
   }
 
   /* projects styling */
